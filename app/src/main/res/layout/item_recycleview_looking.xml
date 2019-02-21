@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="115dp"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/layout_main_item_recycleview">
+
+    <RelativeLayout
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="5dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/layout_item_recycleview">
+        <ImageView
+            android:id="@+id/image_recycleview_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/icon_32_photo_camera" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="15dp"
+        android:id="@+id/txt_recycleview_1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="@dimen/text_size_small"
+        android:text="Prescription Medication"
+        android:gravity="center"/>
+</LinearLayout>

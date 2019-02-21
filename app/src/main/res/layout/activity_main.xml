@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    android:orientation="vertical"
+    tools:context=".View.Activity.MainActivity">
+    
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/app_bar_layout_main"
+        android:background="@color/background_appbar">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/layout_banner_appbar">
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/icon_logo_appbar"/>
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@color/text_title_normal"/>
+                <TextView
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical"
+                    android:drawableRight="@drawable/icon_32_search"
+                    android:background="@color/background_item"
+                    android:hint="@string/appbar_search_hint"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/appbar_button_right"
+                android:background="@drawable/icon_32_setting"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+    </android.support.design.widget.AppBarLayout>
+    
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:id="@+id/view_pager_main"
+        android:background="@color/background_main">
+    </android.support.v4.view.ViewPager>
+
+        <android.support.design.widget.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/background_item"
+            android:id="@+id/tab_layout_main"
+            app:tabGravity="fill"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/tablayout_select"
+            app:tabTextColor="@color/tablayout_noselect"
+            android:paddingTop="4dp"
+            app:tabTextAppearance="@style/MyCustomTextAppearance">
+        </android.support.design.widget.TabLayout>
+</LinearLayout>

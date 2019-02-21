@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--custom-->
+    <color name="background_main">#f6f7f9</color>
+    <color name="background_item">#fff</color>
+    <color name="background_appbar">#1cb1f7</color>
+    <color name="text_title_normal">#999999</color>
+    <color name="text_title_blue">#42bcfd</color>
+    <color name="tablayout_select">#1ab1ff</color>
+    <color name="tablayout_noselect">#a2a2a2</color>
+    <color name="gradiant_left">#1cb1f7</color>
+    <color name="gradiant_right">#4feaeb</color>
+    <color name="upload_color_shape">#f79393</color>
+    <color name="color_item_recycleview">#4feaeb</color>
+    <color name="circle_fill_color">#e2e7f0</color>
+    <color name="circle_page_color">#1bb1f6</color>
+</resources>

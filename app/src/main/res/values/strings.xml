@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DisplayPharmacy</string>
+    <!--custom-->
+    <string name="appbar_search_hint">Search product here...</string>
+    <string name="main_upload_description">Upload your prescription</string>
+    <string name="main_recycleview_1">I am looking for</string>
+    <string name="main_recycleview_2">Top Selling Product</string>
+    <string name="main_see_all">SEE ALL</string>
+    <string name="fragment_item_1">Home</string>
+    <string name="fragment_item_2">Wishlist</string>
+    <string name="fragment_item_3">My Order</string>
+    <string name="fragment_item_4">Profile</string>
+</resources>
